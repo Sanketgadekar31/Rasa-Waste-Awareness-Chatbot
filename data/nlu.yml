@@ -1,0 +1,103 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hello there
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - bye
+    - goodbye
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: thank
+  examples: |
+    - Thanks
+    - Thank You
+    - Thank you so much!
+    - ty
+
+- intent: sensor_used
+  examples: |
+    - What kind of sensors are used in the smart bins?
+    - Tell me about the sensors in the waste management system.
+    - Tell me about the sensors in smart bin.
+    - How do the sensors in the bins work?
+    - Can you provide details about the sensor used to detect bin fill levels?
+    - What type of sensor is installed in the smart bins?
+
+- intent: temp_sensor_info
+  examples: |
+    - Tell me about [temperature Sensor](sensor)
+    - What is [temperature Sensor](sensor)
+    - How [temperature Sensor](sensor) used?
+
+- intent: IR_sensor_info
+  examples: |
+    - Tell me about [IR Sensor](sensor)
+    - What is [IR Sensor](sensor)
+    - How [IR Sensor](sensor) used?
+
+- intent: ultra_sensor_info
+  examples: |
+    - Tell me about [Ultrasonic Sensor](sensor)
+    - What is [height Sensor](sensor)
+    - How [ultrasonic Sensor](sensor) used?
+    - How the bins work?
+    - when bins give alerts?
+  
+- intent: report_issue
+  examples: |
+    - I need to report a problem
+    - There's an issue
+    - bin is not working
+    - lid is not working
+    - lid is not opening
+    - I need to contact support
+    - How can I reach your support team?
+    - Help me with an issue
+
+- intent: sustainability_of_project
+  examples: |
+    - What sustainable practices does your waste management system follow?
+    - Can you tell me about your efforts towards environmental sustainability?
+    - How eco-friendly is your waste disposal system?
+    - Tell me about the sustainability features of your smart waste management solution.
+    - What steps are taken to promote sustainability in waste collection?
+    - Explain the environmental benefits of your waste management approach.
+
+- intent: waste_categories
+  examples: |
+    - What are the waste categories?
+    - Tell me about different waste types
+    - Explain waste categorization
+
+- intent: ask_smart_bin_info
+  examples: |
+    - what are smart bins.
+    - Tell me about the smart bin.
+    - Tell me about the smart bin features.
+    - How does the smart bin work?
+
+- intent: ask_smart_waste_system_info
+  examples: |
+    - Can you provide information on the smart waste management system?
+    - Explain the technologies behind this system.
+    - tell me about overall system
+    - Describe the features of the waste management system.
+
+
+

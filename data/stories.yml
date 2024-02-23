@@ -1,0 +1,48 @@
+version: "3.1"
+
+stories:
+
+- story: Respond to greetings
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: Express Thanks
+  steps:
+  - intent: thank
+  - action: utter_thank
+
+- story: sensor information
+  steps:
+  - intent: sensor_used
+  - action: utter_sensor_used
+  - intent: temp_sensor_info
+  - action: utter_temp_sensor
+  - intent: IR_sensor_info
+  - action: utter_IR_sensor
+  - intent: ultra_sensor_info
+  - action: utter_ultra_sensor
+
+- story: reporting issues
+  steps:
+  - intent: report_issue
+  - action: utter_report_issue
+
+- story: eco-friendly project
+  steps:
+  - intent: sustainability_of_project
+  - action: utter_sustainability_of_project
+  - intent: waste_categories
+  - action: utter_waste_categories
+
+- story: provide system info
+  steps:
+  - intent: ask_smart_waste_system_info
+  - action: utter_ask_smart_waste_system_info
+
+- story: provide bin info
+  steps:
+  - intent: ask_smart_bin_info
+  - action: utter_ask_smart_bin_info
+
+

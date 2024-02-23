@@ -1,0 +1,78 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - thank
+  - sensor_used
+  - temp_sensor_info
+  - IR_sensor_info
+  - ultra_sensor_info
+  - report_issue
+  - sustainability_of_project
+  - waste_categories
+  - ask_smart_bin_info
+  - ask_smart_waste_system_info
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: "Hey there!"
+  - text: "Hey there! How can I assist you?"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Bye, Have a nice day!"
+  - text: "Bye, Happy to help anytime!"
+
+  utter_iamabot:
+  - text: "I am a WasteWiseBot, devloped by Project Team, SCOE."
+  - text: "WasteWiseBot here, devloped by Project Team, SCOE."
+
+  utter_thank:
+  - text: "You are welcome!"
+  - text: "I am glad to help you!"
+
+  utter_default:
+  - text: "Sorry, I didn't get that. Please try again."
+  
+  utter_sensor_used:
+  - text: "The smart bin utilizes an advanced ultrasonic sensor, temprature sensor and infrared sensors (IR) to accurately measure the fill level, keep optimal conditions and make lid opening in smart and hands-free respectively."
+
+  utter_temp_sensor:
+  - text: "The temperature sensor in the smart bin is continuously monitoring and ensuring optimal conditions. This helps in managing waste efficiently and maintaining a healthy environment."
+  - text: "The smart bin is equipped with a temperature sensor to monitor environmental conditions. It helps ensure optimal waste management by providing insights into temperature variations."
+
+  utter_IR_sensor:
+  - text: "Our smart bins are equipped with advanced infrared sensors, ensuring a seamless and hands-free experience. As you approach, the bin detects your presence and gracefully opens its lids, making waste disposal effortless."
+  - text: "The smart bin is equipped with infrared (IR) sensors that detect the presence of a person in front of it. These sensors work by emitting infrared light and measuring the reflection. When someone approaches the bin, the sensors detect their presence and trigger the mechanism to automatically open the bin lids, providing a convenient and hands-free waste disposal experience."
+
+  utter_ultra_sensor:
+  - text: "Our smart bin is equipped with advanced ultrasonic sensors to intelligently monitor its fill level. These sensors utilize cutting-edge technology to precisely measure the waste volume. You can count on our smart bin to optimize waste collection and contribute to efficient waste management in real-time."
+  - text: "With our innovative ultrasonic sensor technology, our smart bins can precisely monitor their fill levels in real-time. You'll receive timely alerts when it's time for collection or disposal."
+
+  utter_report_issue:
+  - text: "Feel free to contact us, and we will definitely look into. Thank you! Contact us [here](https://smartwastemanagement.com/contact/)."
+
+  utter_sustainability_of_project:
+  - text: "Our waste management system is committed to sustainability. We incorporate smart waste collection processes, promote waste bins overflows, and tried to minimize environmental impact."
+  - text: "We prioritize sustainability in our waste management practices. Our system includes features like efficient waste collection, reduced chances of decompostion of garbage."
+  - text: "Sustainability is at the core of our waste management approach. We focus on optimal waste collection method, chnaces of waste decompose reduction."
+
+  utter_waste_categories:
+  - text: "There are different waste categories, including recyclables, non-recyclables, hazardous waste, and organic waste."
+  - text: "Waste categories: Recyclables, Non-recyclables, Hazardous Waste, Organic Waste, E-waste, Construction Debris, Medical Waste. Proper disposal is key to sustainability."
+
+  utter_ask_smart_bin_info:
+  - text: "Our smart bin is equipped with advanced sensors to monitor fill levels, promoting efficient waste collection system. It real-time status updates, and contributes to a sustainable environment."
+  - text: "Our smart waste management system utilizes sensor technology to monitor waste levels, ensuring timely collections and promoting eco-friendly practices. It's designed to streamline waste collection and contribute to a greener future."
+
+  utter_ask_smart_waste_system_info:
+  - text: "Our smart waste management system integrates cutting-edge technology for efficient waste disposal. It comprises smart bins equipped with advanced sensors, a multilingual website for user interaction, and a conversational AI chatbot to raise awareness about sustainable waste practices."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
