@@ -52,4 +52,4 @@ This will start the Rasa chatbot in the interactive shell, allowing you to inter
 - Now open the index.html file
 - For more advanced configurations and deployment options, refer to the [Rasa Documentation](https://rasa.com/docs/rasa).
 
-@sanketgadekar31
+@2024 git.com/sanketgadekar31
